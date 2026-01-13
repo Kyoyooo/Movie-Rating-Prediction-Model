@@ -89,6 +89,7 @@ Thu thập dữ liệu → Khám phá dữ liệu (EDA) → Đặt câu hỏi v�
 │   ├── Question4.ipynb             # Ngân sách sản xuất có thực sự quyết định chất lượng và mức độ đón nhận của phim
 │   ├── Question5.ipynb             # Phương pháp xử lí missing value nào tối ưu nhất để bảo toàn cấu trúc phân phối thống kê
 │   └── Model.ipynb                 # Sử dụng Linear regression, Random forest, Catboost để dự đoán rating
+|   └── Reflection.ipynb            # Tự đánh giá lại công việc của từng thành viên trong nhóm sau khi hoàn thành
 │
 ├── README.md
 └── requirements.txt
