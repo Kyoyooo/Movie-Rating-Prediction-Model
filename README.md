@@ -83,11 +83,11 @@ Thu thập dữ liệu → Khám phá dữ liệu (EDA) → Đặt câu hỏi v�
 ├── notebooks
 │   ├── crawl_imdb.ipynb            # Crawl data
 │   ├── data_exploration.ipynb      # Khám phá dữ liệu (EDA)
-│   ├── Question1.ipynb             # Phương pháp xử lí missing value nào tối ưu nhất để bảo toàn cấu trúc phân phối thống kê
-│   ├── Question2.ipynb             # Ngân sách sản xuất có thực sự quyết định chất lượng và mức độ đón nhận của phim
+│   ├── Question1.ipynb             # Phân loại các nhóm phim phổ biến-chất lượng, phân tích các tệp khán giả trong mỗi nhóm
+│   ├── Question2.ipynb             # Những bộ phim có thời lượng dài (vd > 2 tiếng) có xu hướng đạt điểm cao hơn phim ngắn không
 │   ├── Question3.ipynb             # Thể loại và MPA ảnh hưởng ra sao đến đánh giá của giới phê bình và khán giả
-│   ├── Question4.ipynb             # Những bộ phim có thời lượng dài (vd > 2 tiếng) có xu hướng đạt điểm cao hơn phim ngắn không
-│   ├── Question5.ipynb             # Phân loại các nhóm phim phổ biến-chất lượng, phân tích các tệp khán giả trong mỗi nhóm
+│   ├── Question4.ipynb             # Ngân sách sản xuất có thực sự quyết định chất lượng và mức độ đón nhận của phim
+│   ├── Question5.ipynb             # Phương pháp xử lí missing value nào tối ưu nhất để bảo toàn cấu trúc phân phối thống kê
 │   └── Model.ipynb                 # Sử dụng Linear regression, Random forest, Catboost để dự đoán rating
 │
 ├── README.md
