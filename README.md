@@ -32,8 +32,8 @@ Dữ liệu được thu thập từ website IMDB thông qua kỹ thuật web cr
 
 ## 2. Nguồn dữ liệu và mô tả dữ liệu
 
-- **Nguồn dữ liệu**: Dữ liệu được thu thập thông qua kỹ thuật web crawling từ trang IMDB.(https://www.imdb.com/search/title/?title_type=feature)
-- **Tổng quan dữ liệu**: Bộ dữ liệu bao gồm thông tin về các bộ phim phổ biến, được sắp xếp theo thứ tự mức độ phổ biến giảm dần. Việc lựa chọn nhóm phim phổ biến nhằm giảm thiểu tỷ lệ giá trị bị thiếu (missing values) so với phương pháp thu thập phim ngẫu nhiên. Dữ liệu được thu thập vào tháng 12 năm 2025.
+- **Nguồn dữ liệu**: dữ liệu được thu thập thông qua kỹ thuật web crawling từ trang IMDB.(https://www.imdb.com/search/title/?title_type=feature)
+- **Tổng quan dữ liệu**: bộ dữ liệu bao gồm thông tin về các bộ phim phổ biến, được sắp xếp theo thứ tự mức độ phổ biến giảm dần. Việc lựa chọn nhóm phim phổ biến nhằm giảm thiểu tỷ lệ giá trị bị thiếu (missing values) so với phương pháp thu thập phim ngẫu nhiên. Dữ liệu được thu thập vào tháng 12 năm 2025.
 - **Kích thước dữ liệu**:
   - 10.048 dòng
   - 10 thuộc tính
@@ -113,7 +113,7 @@ Thu thập dữ liệu → Khám phá dữ liệu (EDA) → Đặt câu hỏi v�
 ### 5.3 Hướng dẫn thực thi
 
 - Run `crawl_imdb.ipynb`: để crawl data gốc và tạo `IMDB_movies_final.csv`
-- Run `data_exploration.ipynb`: Khám phá và làm sạch dữ liệu, đồng thời tạo các file `IMDB_movies.csv` (dữ liệu đã được clean) và `train_processed.csv`, `test_processed.csv` (dữ liệu đã được tiền xử lý để phục vụ huấn luyện mô hình).
+- Run `data_exploration.ipynb`: khám phá và làm sạch dữ liệu, đồng thời tạo các file `IMDB_movies.csv` (dữ liệu đã được clean) và `train_processed.csv`, `test_processed.csv` (dữ liệu đã được tiền xử lý để phục vụ huấn luyện mô hình).
 - Run các Question.ipynb: để xem insight dữ liệu
 - Run `Model.ipynb`: để xây dựng model dự đoán rating
 
