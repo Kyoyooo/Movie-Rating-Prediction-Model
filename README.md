@@ -113,7 +113,7 @@ Thu thập dữ liệu → Khám phá dữ liệu (EDA) → Đặt câu hỏi v�
 ### 5.3 Hướng dẫn thực thi
 
 - Run `crawl_imdb.ipynb`: để crawl data gốc và tạo `IMDB_movies_final.csv`
-- Run `data_exploration.ipynb`: để khám phá dữ liệu và tạo `IMDB_movies.csv` với dữ liệu đã clean
+- Run `data_exploration.ipynb`: Khám phá và làm sạch dữ liệu, đồng thời tạo các file `IMDB_movies.csv` (dữ liệu đã được clean) và `train_processed.csv`, `test_processed.csv` (dữ liệu đã được tiền xử lý để phục vụ huấn luyện mô hình).
 - Run các Question.ipynb: để xem insight dữ liệu
 - Run `Model.ipynb`: để xây dựng model dự đoán rating
 
